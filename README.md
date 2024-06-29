@@ -5,7 +5,7 @@ To execute the `bootstrap-wsl2.sh` script directly from GitHub using `curl`, fol
 3. Run the following command to download and execute the script:
 
 ```shell
-curl -sSL https://raw.githubusercontent.com/smuda03/wsl2-bootstrap/main/bootstrap-wsl2.sh | bash
+bash <(curl -s https://raw.githubusercontent.com/smuda03/wsl2-bootstrap/main/bootstrap-wsl2.sh)
 ```
 
 5. The script will be downloaded and executed automatically. Follow any prompts or instructions provided by the script.
